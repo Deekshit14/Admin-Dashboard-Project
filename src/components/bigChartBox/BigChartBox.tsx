@@ -5,7 +5,7 @@ import "./bigChartBox.scss";
 const data = [
      {
        name: "Sun",
-       mobile: 4000,
+       mobile: 3000,
        laptop: 2400,
        tablet: 2400,
      },
@@ -17,15 +17,15 @@ const data = [
      },
      {
        name: "Tue",
-       mobile: 2000,
-       laptop: 9800,
-       tablet: 2290,
-     },
-     {
-       name: "Wed",
        mobile: 2780,
        laptop: 3908,
        tablet: 2000,
+     },
+     {
+       name: "Wed",
+       mobile: 2000,
+       laptop: 9800,
+       tablet: 2290,
      },
      {
        name: "Thu",
@@ -41,9 +41,9 @@ const data = [
      },
      {
        name: "Sat",
-       mobile: 3490,
-       laptop: 4300,
-       tablet: 2100,
+       mobile: 2300,
+       laptop: 1300,
+       tablet: 1100,
      },
 ];
 
@@ -68,8 +68,8 @@ const BogChartBox = () => {
                          <YAxis />
                          <Tooltip />
                          <Area type="monotone" dataKey="tablet" stackId="1" stroke="#8884d8" fill="#8884d8" />
-                         <Area type="monotone" dataKey="laptop" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
-                         <Area type="monotone" dataKey="mobile" stackId="1" stroke="#ffc658" fill="#ffc658" />
+                         <Area type="monotone" dataKey="laptop" stackId="1" stroke="#00C49F" fill="#00C49F" />
+                         <Area type="monotone" dataKey="mobile" stackId="1" stroke="orange" fill="orange" />
                     </AreaChart>
                </ResponsiveContainer>
                </div>
