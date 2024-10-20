@@ -31,8 +31,13 @@ const Single = (props: Props) => {
                                    <img src={props.img} alt="" />
                               }
                               <h1>{props.title}</h1>
-                              <button>Update</button>
+                              {/* <button>Update</button> */}
                          </div>
+
+                         <div className = "bt">
+                              <button>Update</button>       
+                         </div>    
+                         
 
                          <div className="details">
                               {

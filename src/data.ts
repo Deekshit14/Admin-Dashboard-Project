@@ -36,13 +36,13 @@ export const menu = [
       {
         id: 3,
         title: "Orders",
-        url: "/orders",
+        url: "/products",
         icon: "order.svg",
       },
       {
         id: 4,
         title: "Posts",
-        url: "/posts",
+        url: "/",
         icon: "post2.svg",
       },
     ],
@@ -470,11 +470,11 @@ export const products = [
   {
     id: 1,
     img: "https://venturebeat.com/wp-content/uploads/2015/07/As_AO1-131_gray_nonglare_win10_03.png?fit=1338%2C1055&strip=all",
-    title: "Playstation 5 Digital Edition",
+    title: "Mac Laptop",
     color: "white",
     producer: "Sony",
     price: "$250.99",
-    createdAt: "01.02.2023",
+    createdAt: "04.05.2024",
     inStock: true,
   },
   {
@@ -484,7 +484,7 @@ export const products = [
     color: "black",
     producer: "Dell",
     price: "$499.99",
-    createdAt: "01.02.2023",
+    createdAt: "04.05.2024",
     inStock: true,
   },
   {
@@ -494,7 +494,7 @@ export const products = [
     color: "gray",
     producer: "Samsung",
     price: "$999.49",
-    createdAt: "01.02.2023",
+    createdAt: "04.05.2024",
     inStock: true,
   },
   {
@@ -504,7 +504,7 @@ export const products = [
     color: "white",
     producer: "Apple",
     price: "$799.49",
-    createdAt: "01.02.2023",
+    createdAt: "04.05.2024",
     inStock: true,
   },
   {
@@ -514,7 +514,7 @@ export const products = [
     color: "rainbow",
     producer: "Sony",
     price: "$39.99",
-    createdAt: "01.02.2023",
+    createdAt: "04.05.2024",
   },
   {
     id: 6,
@@ -523,7 +523,7 @@ export const products = [
     color: "black",
     producer: "Lenova",
     price: "$59.49",
-    createdAt: "01.02.2023",
+    createdAt: "04.05.2024",
     inStock: true,
   },
   {
@@ -533,7 +533,7 @@ export const products = [
     color: "gray",
     producer: "Hp",
     price: "$119.49",
-    createdAt: "01.02.2023",
+    createdAt: "04.05.2024",
   },
   {
     id: 8,
@@ -542,7 +542,7 @@ export const products = [
     color: "white",
     producer: "Apple",
     price: "$899.99",
-    createdAt: "01.02.2023",
+    createdAt: "04.05.2024",
     inStock: true,
   },
   {
@@ -552,7 +552,7 @@ export const products = [
     color: "black",
     producer: "Sony",
     price: "$970.49",
-    createdAt: "01.02.2023",
+    createdAt: "04.05.2024",
   },
   {
     id: 10,
@@ -561,7 +561,7 @@ export const products = [
     color: "black",
     producer: "Acer",
     price: "$599.99",
-    createdAt: "01.02.2023",
+    createdAt: "04.05.2024",
     inStock: true,
   },
 ];
@@ -571,12 +571,12 @@ export const products = [
 export const singleUser = {
   id: 1,
   title: "AB",
-  img: "../user.jpg",
+  img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1600",
   info: {
     username: "AB17",
     fullname: "AB ",
     email: "AB@gmail.com",
-    phone: "123 456 789",
+    phone: "+91 89889479",
     status: "verified",
   },
   chart: {

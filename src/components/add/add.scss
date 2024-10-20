@@ -19,6 +19,11 @@
           border-radius: 10px;
           background-color: $main-bg;
           position: relative;
+
+
+          @include md{
+               padding: 25px;
+          }
           
 
           h1 {
@@ -39,6 +44,14 @@
                flex-wrap: wrap;
                max-width: 500px;
                justify-content: space-between;
+
+               @include md{
+                    flex-direction: column;
+               }
+
+               @include sm{
+                    flex-direction: column;
+               }
           }
 
           .item {
@@ -47,6 +60,14 @@
                flex-direction: column;
                gap: 10px;
                margin-bottom: 20px;
+
+               @include md{
+                    width: 100%;
+               }
+
+               @include sm{
+                    width: 80%;
+               }
 
                label {
                     font-size: 14px;
