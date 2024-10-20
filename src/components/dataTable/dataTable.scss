@@ -1,0 +1,52 @@
+@import "../../styles/responsive.scss";
+
+.dataTable {
+     // width: 95%;     // Ensure the dataTable takes the full width of its container
+     // overflow: hidden; // Prevent overflow issues that could cause shaking
+     overflow: scroll;
+
+     .dataGrid {
+          background: white;
+          padding: 10px;
+          height: 50%;  // Set a fixed height for the table to prevent dynamic resizing
+
+          @include xxl {
+               // height: 130vh;
+          }
+
+          // @include xl {
+          //      height: 100vh;
+          // }
+
+          .MuiDataGrid-toolbarContainer {    // export class name
+               flex-direction: row-reverse;
+          }
+
+          @media (max-width: 600px) { // Small screen, based on Material-UI's "sm" breakpoint
+               .MuiInputBase-root {
+                 width: 150px;
+               }
+          }
+
+
+          img {
+               width: 32px;
+               height: 32px;
+               border-radius: 50%;
+               object-fit: cover;
+          }
+
+          .action {
+               display: flex;
+               gap: 15px;
+
+               img {
+                    width: 20px;
+                    height: 20px;
+                    cursor: pointer;
+               }
+          }
+
+     }
+
+}
