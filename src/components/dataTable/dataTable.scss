@@ -28,6 +28,10 @@
                }
           }
 
+          .MuiDataGrid-cell {
+               display: flex;
+               align-items: center;
+          }
 
           img {
                width: 32px;
